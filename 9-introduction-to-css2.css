@@ -1,0 +1,56 @@
+body{
+    font-family: tahoma;
+    font-size: 14px;
+}
+#header{
+    background-color: coral;
+}
+div{
+    background-color: blue;
+}
+div#search{
+    background-color: coral;
+}
+#footer{
+    background-color: aqua;
+}
+
+.warning{
+    background-color: red;
+    color: aliceblue;
+}
+.eror{
+    background-color: orange;
+    color: white;
+}
+.bg-green{
+    background-color: green;
+}
+.color-white{
+    color: white;
+}
+.class-a{
+    color: white;
+}
+a.class-a{
+    background-color: blue;
+}
+
+p.class-a{
+    background-color: yellowgreen;
+}
+
+
+span,p.prg,div#test{
+    background-color: crimson;
+}
+
+p.bg-green,.color-white{
+    font-size: 40px;
+}
+div#header > a{
+    color: white;
+}
+div#header > div#search > a{
+    color: yellow;
+}

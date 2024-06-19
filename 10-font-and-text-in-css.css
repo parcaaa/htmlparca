@@ -1,0 +1,25 @@
+div{ 
+    font-size: 16px; 
+    /* font-size: 2em; */
+    /* font-weight: 15; */
+    /* font-style: oblique; */
+    /* font-variant: small-caps; */
+    /* font: bold 2em/100px 'courier new' ; */
+    font-size: 300%;
+    color: goldenrod;
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* vertical-align: central ; */
+    /* text-decoration: underline; */
+    text-indent: 25px;
+    text-transform: capitalize;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 20px; */
+    word-spacing: 20px;
+    /* white-space: pre; */
+    /* direction: rtl; */
+    /* text-shadow: -10px 3px 10px red; */
+    
+
+}

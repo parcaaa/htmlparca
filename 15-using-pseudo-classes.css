@@ -1,0 +1,70 @@
+body{
+    background-color: gainsboro;
+}
+#wrapper{
+    width: 80%;
+    background-color: wheat;
+    border: 1px solid gray;
+    border-radius: 20px;
+    min-height: 1500px;
+    margin: 0 auto;
+
+
+
+
+}
+#header{
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid grey;
+
+}
+#menubar{
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+#menubar a{
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    background-color:wheat ;
+    color: chocolate;
+    padding: 10px 20px;
+    margin: 0 1px;
+    
+}
+#menubar .tafkik{
+    border-left: 1px solid gray;
+}
+#menubar .tafkik2:hover{
+    border-right: 1px solid gray;
+}
+#menubar a:hover{
+    color: black;
+    /* text-decoration: underline; */
+    /* font-size: 1.3em; */
+    transform: scale(1.1);
+    border-left: 1px solid gray;
+    
+}
+#menubar a:active{
+    color: goldenrod;
+}
+#content{
+    padding: 20px;
+}
+
+#content input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid gainsboro;
+}
+#content input:focus{
+    border: 1px solid green;
+}
+#content input:disabled{
+    background-color: white;
+    cursor: not-allowed;
+}
+

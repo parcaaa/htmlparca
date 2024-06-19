@@ -1,0 +1,29 @@
+#wrapper{
+    width: 960px;
+    height: 1500px;
+    background-color: rgb(156, 202, 255);
+    border: 2px solid palevioletred;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+#header{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+#menubar{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: honeydew;
+    padding: 10px 0;
+    
+}
+#menubar a{
+    color: rgb(255, 51, 255);
+    font-size: 1.3em;
+    text-decoration: none;
+    background-color: rgb(156, 202, 255);
+    padding: 5px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 10px;
+}

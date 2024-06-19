@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body dir="rtl">
+    <font face="tahoma" size="2">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="userid" value="12">
+            <p>نام کاربری</p>
+            <input type="text" name="username" placeholder="نام کاربری را وارد کنید" maxlength="7" required="required">
+            <p>کلمه عبور</p>
+            <input type="password" name="password" required="required">
+            <p>پست الکترونیک</p>
+            <input type="email">
+            <p>آدرس وبسایت</p>
+            <input type="url" name="website">
+            <p>تصویر کاربری</p>
+            <input type="file" name="avatar">
+            <p>توضیحات</p>
+            <textarea name="description" disabled="disabled" rows="10" cols="70" placeholder="توضیحاتی درباره فعالیت های خود دهید"></textarea>
+            <fieldset>
+                <legend>علاقه مندی های شما</legend>
+                <input type="checkbox" name="interests" value="programming" checked="checked"> یرنامه نویسی 
+                <br>
+                <input type="checkbox" name="interests" value="programming"> طراحی وب
+                <br>
+                <input type="checkbox" name="interests" value="programming"> شبکه
+                <br>
+                <input type="checkbox" name="interests" value="programming"> دیتابیس
+                <br>
+            </fieldset>    
+            <p>نوع کاربری</p>
+            <input type="radio" name="usertype" value="general" checked="checked"> کاربر عادی
+            <br>
+            <input type="radio" name="usertype" value="bronze"> کاربر برنزی
+            <br>
+            <input type="radio" name="usertype" value="silver"> کاربر نقره ای
+            <br>
+            <input type="radio" name="usertype" value="gold"> کاربر طلایی
+            <br>
+            <br>
+            <input type="submit" value="ثبت نام ">
+            <input type="reset" value="پاک کردن فرم">
+            <button type="submit"><i><b>بازگشت به صفحه اصلی</b></i></button>
+            <br>
+            <br>
+            <p>جنسیت</p>
+            <select name="gender">
+                <optgroup label="تست"></optgroup>
+                <option value="male">مرد</option>
+                <option value="female">زن</option>
+                <option value="unknown" disabled="disabled">نامشخص</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="ثبت نام ">
+            <input type="reset" value="پاک کردن فرم">
+            <br>
+            <br>
+            <input type="date">
+            <br>
+            <br>
+            <input type="datetime">
+            <br>
+            <br>
+            <input type="datetime-local">
+            <br>
+            <br>
+            <input type="color">
+            <br>
+            <br>
+            <input type="range" min="1" max="20">
+            <br>
+            <br>
+            <input type="search">
+
+
+
+
+        </form>    
+    </font>
+
+
+
+
+</body>
+</html>
+

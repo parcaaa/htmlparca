@@ -1,0 +1,13 @@
+.box{
+    font-size: 2em;
+    background-color: yellowgreen;
+    width: 50%;
+    height: 400px;
+    min-width: 200px;
+    max-width: 500px;
+}
+.inner-box{
+    height: 400px;
+    width: 50%;
+    background-color: aqua;
+}

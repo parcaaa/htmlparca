@@ -1,0 +1,23 @@
+body{
+    /* background-color: palevioletred; */
+    background-image: url(image-cmlr85jq.png);
+    background-repeat: repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-position: left;
+    background-attachment: fixed;
+    /* background-size: 400px 400px; */
+
+    /* background: darkred url(image-cmlr85jq.png) repeat fixed center center; */
+
+}
+
+
+
+
+p{
+    /* background-image: url(image-au4430mu.png); */
+    background-color: white;
+    font-size: 40px;
+    color: palevioletred;
+}

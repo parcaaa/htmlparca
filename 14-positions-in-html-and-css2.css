@@ -1,0 +1,30 @@
+.box{
+    width: 200px ;
+    height: 200px;
+    background-color: darksalmon;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.box1{
+    background-color: springgreen;
+    color: black;
+    left: 80px;
+    top: 50px;
+    z-index: 1;
+}
+.box2{
+    background-color: darkred;
+    color: black;
+    left: 40px;
+    top: 20px;
+    z-index: 0;
+}
+.box3{
+    background-color: darkgreen;
+    color: black;
+    z-index: 2;
+}
